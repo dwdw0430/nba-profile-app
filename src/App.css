@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.home-link {
+  margin: 0 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-link:hover {
+  background-color: #f2f2f2;
+}
+
+.player-bio-container {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.player-bio-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.player-bio-image {
+  width: 200px;
+  height: auto;
+}
+
+.player-bio-info {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+.stats-cell {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.table-header {
+  font-weight: 'bold';
+  color: '#f5f0e1';
+  font-size: "16px";
 }
